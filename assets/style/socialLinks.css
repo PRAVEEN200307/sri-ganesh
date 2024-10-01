@@ -1,0 +1,17 @@
+.top1 {
+    position: fixed;
+    z-index: 999;
+    bottom: 15%;
+    right: 10px;
+    width: 40px;
+    height: auto;
+  }
+  
+  .top2 {
+    position: fixed;
+    z-index: 999;
+    bottom: 22%;
+    right: 10px;
+    width: 40px;
+    height: auto;
+  }

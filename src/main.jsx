@@ -6,7 +6,8 @@ import Manufacture from './page/Manufacture.jsx';
 import Home from './page/Home.jsx';
 import MainProduct from './page/MainProduct.jsx';
 import QualityControl from './page/QualityControl.jsx';
-
+import Contact from './page/contact.jsx';
+import Dashboard from './page/Dashboard.jsx';
 
 import {
   createBrowserRouter,
@@ -35,8 +36,16 @@ const router = createBrowserRouter([
         path: "qualityControl",
         element: <QualityControl />,
       },
+      {
+        path:'contact',
+        element: <Contact />
+      },
     ],
   },
+  {
+    path:'dashboard',
+    element : (<Dashboard />)
+  }
 ]);
 
 

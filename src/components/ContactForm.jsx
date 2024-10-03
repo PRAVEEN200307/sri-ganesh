@@ -13,7 +13,8 @@ const schema = yup
     .object({
         fullName: yup.string().required(),
         Email: yup.string().required(),
-        textInput: yup.string().required()
+        textInput: yup.string().required(),
+        phone: yup.number().min(10).required()
     })
     .required()
 
@@ -71,6 +72,20 @@ export default function ContactForm() {
                 />
                 <label htmlFor="email_id">Email</label>
                 <p className="small text-danger">{errors.Email?.message}</p>
+            </div>
+
+            {/* phone */}
+            <div className="relative">
+                <input
+                    type="number"
+                    name="phone_id"
+                    id="phone_id"
+                    className="userInput"
+                    required=""
+                    {...register("phone")}
+                />
+                <label htmlFor="phone_id">phone</label>
+                <p className="small text-danger">{errors.phone?.message}</p>
             </div>
             {/* message */}
             <div className="relative">

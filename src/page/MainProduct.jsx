@@ -7,7 +7,7 @@ export default function MainProduct() {
 
         <>
             <Helmet>
-                <title>Product | Precision Manufacturing Machines: CNC Lathe, VMC, and Contourecord 1600G</title>
+                <title> Precision Manufacturing Machines: CNC Lathe, VMC, and Contourecord 1600G</title>
                 <meta name="description" content="Discover our expertly crafted flanges, gears, and spinners. With a focus on quality and precision, we deliver reliable solutions for all your manufacturing needs." />
             </Helmet>
 

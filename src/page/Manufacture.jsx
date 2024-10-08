@@ -6,7 +6,7 @@ export default function Manufacture() {
     return (
         <>
             <Helmet>
-                <title>Manufacture | Top-Quality CNC Lathe, VMC, and Contourecord 1600G Manufacturing </title>
+                <title> Top-Quality CNC Lathe, VMC, and Contourecord 1600G Manufacturing </title>
                 <meta name="description" content="Check out our precision manufacturing using CNC Lathe, VMC, and Contourecord 1600G machines! We create high-quality products designed just for you, with a focus on excellence and reliability." />
             </Helmet>
 

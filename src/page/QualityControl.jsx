@@ -11,7 +11,7 @@ export default function QualityControl() {
     <>
 
       <Helmet>
-        <title>Quality Control | Accurate Measurement Instruments for Precision Manufacturing</title>
+        <title> Accurate Measurement Instruments for Precision Manufacturing</title>
         <meta name="description" content="Take advantage of our advanced measuring instrument facility for precise and accurate measurements. Ensure top quality in your manufacturing processes with our reliable tools" />
       </Helmet>
 

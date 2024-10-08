@@ -4,11 +4,18 @@ import ContactForm from '../components/ContactForm'
 import Map from '../components/Map'
 import { ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
+import { Helmet } from 'react-helmet';
 
 
 export default function Contact() {
     return (
         <>
+            <Helmet>
+                <title>Sri ganesh engineering - All kind of Cnc Precision Parts Manufactuturing Maraimalai Nagar </title>
+                <meta name="description" content="Explore MMF, your trusted partner for closed die forgings! With 22 years of experience,we deliver high-quality products on time at competitive prices, ensuring total customer satisfaction,
+                2/8 Velu Nachiyar 2nd street, Rail Nagar, Extn, Maraimalai Nagar, 603209" />
+                <meta name="keywords" content="maraimalai nagar,best tools manufaturing company in chennai,precision products " />
+            </Helmet>
             <main className="container mb-4">
                 <div className="address">
                     <div>
